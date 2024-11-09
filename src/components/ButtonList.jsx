@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const ButtonList = ({ selected, setSelected }) => {
   return (
-    <div className="grid grid-cols-3">
+    <div className="grid grid-cols-3 sticky top-0">
       <Button selected={selected} setSelected={setSelected} content="users" />
       <Button selected={selected} setSelected={setSelected} content="posts" />
       <Button
